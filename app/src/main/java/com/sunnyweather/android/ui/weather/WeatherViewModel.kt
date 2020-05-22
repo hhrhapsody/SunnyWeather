@@ -8,7 +8,7 @@ import com.sunnyweather.android.logic.model.Location
 
 class WeatherViewModel:ViewModel() {
     private val locationLiveData= MutableLiveData<Location>()
-    var locationIng=""
+    var locationLng=""
     var locationLat=""
     var placeName = ""
 
